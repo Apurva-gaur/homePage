@@ -8,11 +8,11 @@
 
 }
 .wrap{
-    max-width: 1600px;
-    width: 100%;
-    /* border:1px solid red; */
-    
+  max-width: 1500px;
+  width: 100%;
+  /* border:1px solid red;  */
 }
+
 .wrap2{
     background-color: #F3F5F5;
     /* border:1px solid red; */
@@ -24,23 +24,27 @@
     /* border: solid red 1px; */
     background: white; 
     font-family: calibri; 
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 20px;
     /* margin-bottom: 10px; */
-    /* box-shadow: 0px 6px  rgba(0, 0, 0, 0.1); */
+    box-shadow: 0px 6px  rgba(0, 0, 0, 0.1);
     
 }
 .navdiv{
     /* border: solid green 2px; */
     display: flex; 
-    align-items: center; 
     justify-content: space-between;
-    margin: 5px;
+    padding-left: 20px;
+    /* margin: 5px; */
+    
     
 }
 /* .logo{
     border: solid red 1px;
+    
 } */
 .logo a{
 
@@ -56,20 +60,20 @@ li{
 }
 li a{
     color: black; 
-    font-size: 12px; 
-    font-weight: 400; 
+    font-size: 20px; 
+    font-weight: bold; 
     margin-right: 25px;
     
 }
 button{
     /* border: solid black 1px; */
     background-color: #357abd; 
-    margin-left: 10px; 
+    /* margin-left: 10px;  */
     padding: 5px 5px;
     border-radius: 2px;
     /* padding: 10px; */
     /* margin-top: 5px; */
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     width: 90px;
     border: 0;
 }
@@ -89,8 +93,11 @@ button a{
 } */
 .main1{
     text-align: center;
+    height: 400px;
+    font-size: 30px;
     /* margin-top: 50px; */
     padding-top: 50px;
+    padding-bottom: 50px;
     color: #2A465A;
     font-family: calibri; 
     /* border: 1px solid red; */
@@ -113,8 +120,8 @@ button a{
   }
   #card{
     /* border:solid black 2px; */
-    height: 180px ;
-    width:180px ;
+    height: 200px ;
+    width:300px ;
     background-color: white;
     /* border-top-left-radius:20px; */
     margin:10px 10px;
@@ -123,20 +130,23 @@ button a{
   }
   .content{
     /* border: solid red 2px; */
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-top: 30px;
+    margin-bottom: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-family: calibri; 
   }
   .icons{
     /* border: 1px solid red; */
     /* margin: 10px; */
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   h3,p{
+    
     margin: 10px;
   }
   p{
     color: darkgrey;
-    font-size: 10px;
+    font-size: 15px;
   }
